@@ -77,12 +77,16 @@ class Game extends React.Component {
       [1, 1],
       [2, 1],
       [3, 1],
+      [4, 1],
       [1, 2],
       [2, 2],
       [3, 2],
+      [4, 2],
       [1, 3],
       [2, 3],
-      [3, 3]
+      [3, 3],
+      [3, 4],
+      [4, 4]
     ];
     const history = this.state.history.slice(0, this.state.stepNumber + 1);
     const current = history[history.length - 1];
